@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    color: #efedff;
+    background-color: #020012;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: normal;
+}
+
+a {
+    color: #efedff;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: #9584ff
+}
+
+h2 {
+    margin-left: 14rem;
+    margin-right: 14rem;
+    transition-duration: 600ms;
+}
+
+.aboutme {
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+h2:hover {
+    letter-spacing: 4px;
+}
+
+.socialstab {
+    border: 3px #efedff solid;
+    border-radius: 18px;
+    position: relative;
+    margin: 2rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    padding: 0.6rem;
+    text-align: center;
+    transition-duration: 300ms;
+}
+
+.socialstab:hover {
+    background-color: #1900bb;
+    margin-left: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.socialsdesc {
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 0px;
+    color: #efedff;
+}
+
+.socialsname {
+    color: #efedff;
+    font-size: 1.7rem;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.socialstab a {
+    text-decoration: none;
+}
+
+img {
+    border: 3px #efedff solid;
+    border-radius: 60px;
+}
+
+.project {
+    font-feature-settings: "liga" 0;
+    margin-left: 14rem;
+}
+
+.clock {
+    font-size: 0.7rem;
+    margin-top: 0.1rem;
+}
+
+.bio {
+    font-style: italic;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.maintitle {
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 965px) {
+    .socialstab {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .aboutme {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .socialsname {
+        font-size: 1.3rem;
+    }
+
+    .bio {
+        font-size: 0.75rem;
+    }
+
+    .project {
+        margin-left: 2rem;
+    }
+}
