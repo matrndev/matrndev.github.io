@@ -1,22 +1,9 @@
-/*const togglebutton = document.getElementsByClassName("navbarbutton")[0];
-const navbarlinks = document.getElementsByClassName("navbarlinks")[0];
-const navbarlogo = document.getElementsByClassName("navbarlogo")[0];*/
 const maintitle = document.getElementsByClassName("maintitle")[0];
 const bio = document.getElementsByClassName("bio")[0];
 
-/*togglebutton.addEventListener("click", () => {
-    navbarlinks.classList.toggle("buttontoggled");
-});
-
-navbarlogo.addEventListener("mouseover", () => {
-    navbarlogo.innerText = "<matrn.dev>";
-});
-navbarlogo.addEventListener("mouseout", () => {
-    navbarlogo.innerText = "<>";
-});*/
 try {
     maintitle.addEventListener("mouseover", () => {
-        maintitle.innerText = "matrndev";
+        maintitle.innerText = "Matyáš Trnka";
     });
     maintitle.addEventListener("mouseout", () => {
         maintitle.innerText = "matrn";
