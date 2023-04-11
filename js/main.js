@@ -13,7 +13,7 @@ try {
 };
 
 
-const biooptions = ["<3 italian cuisine", "in love with USB-C", '"' + "should i use italic for this?" + '"' ,"professional dumbass", "open-source is the way" ,"professional procrastinator", "yes." ,'"' + "it's not a bug, it's a feature" + '"', "pizza", "professional indecisive person"];
+const biooptions = ["italian cuisine is the best", "in love with USB-C", "open-source is the way" ,"professional procrastinator", "yes." ,'"' + "it's not a bug, it's a feature" + '"', "pizza", "professionally indecisive person"];
 var lastrandbio = 0;
 
 window.setInterval(() => {
