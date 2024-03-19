@@ -13,7 +13,7 @@ try {
 };
 
 
-const biooptions = ["italian cuisine is the best", "in love with USB-C", "open-source is the way" ,"professional procrastinator", "yes." ,'"' + "it's not a bug, it's a feature" + '"', "pizza", "professionally indecisive person"];
+const biooptions = ["italian cuisine is the best", "in love with USB-C", "open-source is the way", "professional procrastinator", '"' + "it's not a bug, it's a feature" + '"'];
 var lastrandbio = 0;
 
 window.setInterval(() => {
